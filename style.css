@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=PT+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=PT+Serif:ital@0;1&family=Source+Serif+Pro:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(253, 238, 231);;
+}
+
+.sidebar{
+    background-color: rgb(248, 191, 174);
+    width: 434px;
+    font-family: 'Nunito', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    
+}
+.sidebar nav{
+    padding: 42px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 23px  ;
+}
+.sidebar nav li a{
+    color: black;
+    text-decoration: none;
+}
+
+.main{
+    background-color: rgb(253, 238, 231);
+    width: 85vw;
+    font-family: 'PT Serif', serif;
+}
+
+.cross{
+    margin-left: 20vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    background-color: rgb(250, 245, 243);
+    height: 58vh;
+    width: 75vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.gauImg{
+    height: 70vh;
+    background-color: rgb(248, 191, 174);
+    border-radius: 35vh;
+}
+.hello{
+    font-size: 35px;
+    font-family: 'Source Serif Pro', serif;
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'PT Serif', serif;
+}
+.about{
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+.moreAbout{
+    font-size: 15px;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.btn  {
+    padding: 7px 11px;
+    border-radius: 18px;
+    color: white;
+    background-color: rgb(248, 191, 174);
+    font-weight: bold;
+    font-size: 18px;
+    margin: 8px;
+    cursor: pointer;
+
+}
+.btn:hover  {
+    color: white;
+    background-color: rgb(228, 127, 96);
+}
+
+
+
+.company{
+    width: 50px;
+    margin: 10px 140px;
+}
+.ExpHedding{
+    text-align: center;
+    margin: 30px;
+}
+.experianceContainer{
+    display: flex;
+}
+.experianceContainer div{
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+
+
+.contactform {
+    padding: 0 40px;
+    padding-top: 100px;
+    font-family: 'PT Serif', serif;
+
+}
+
+.contactform h2{
+    padding: 12px 0;
+    text-align: left;
+}
+
+.contactform form div{
+    padding: 10px 0 ;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 10px;
+    color: rgb(110, 107, 107);
+    margin: 0 5px;
+}
+
+#form-check {
+    flex-direction: row;
+}
+#form-check input{
+    width:24px ;
+    margin: 3px 0;
+}
+
+.btn-sm{
+    font-size: 15px;
+    padding: 8px 15px;
+    margin: 5px 0 ;
+}
+
+
+
+.eduHedding{
+    margin: 45px;
+}
+.acadmicsContainer h2{
+    text-align: left;
+    font-family: 'Source Serif Pro', serif;
+}
+.degree{
+    margin: 30px 45px ;
+    padding: 20px;
+    border: 2px solid rgb(248, 191, 174);
+    border-radius: 10px;
+}
+.hsc{
+    margin: 30px 45px ;
+    padding: 20px;
+    border: 2px solid rgb(248, 191, 174);
+    border-radius: 10px;
+}
+.ssc{
+    margin: 30px 45px ;
+    padding: 20px;
+    border: 2px solid rgb(248, 191, 174);
+    border-radius: 10px;
+}
+
+
+
+.devInfo h1 , h2{
+    text-align: center;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.devInfo p {
+    margin: 20px ;
+    font-family: 'Nunito', sans-serif;
+}
+
+.skill{
+    height: 4px;
+    width: 1000px;
+    background-color: rgb(19, 18, 18);
+}
+.skillContainer{
+    margin: 30px;
+}
+.s1{
+    height: 3px;
+    width: 45vw;
+    background-color: rgb(221, 29, 15);
+}
+.s2{
+    height: 3px;
+    width: 52vw;
+    background-color: rgb(11, 13, 139);
+}
+.s3{
+    height: 3px;
+    width: 40vw;
+    background-color: rgb(224, 247, 19);
+}
+.s4{
+    height: 3px;
+    width: 58vw;
+    background-color: rgb(107, 16, 95);
+}
+.s5{
+    height: 3px;
+    width: 52vw;
+    background-color: rgb(20, 92, 70);
+}
+.s6{
+    height: 3px;
+    width: 30vw;
+    background-color: rgb(143, 10, 83);
+}
+
+
+
+
+
+@media (max-width:700px ) and (min-width:480px){
+    
+    .main{
+        width: 100vw;
+        height: 100vh;    
+    }
+    .gauImg{
+        width: 250px;
+        height: 310px;
+    }
+    
+
+}
+
+
+@media (max-width:800px){
+  
+    .experianceContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+@media (max-width:1200px) and (min-width:700px){
+    .gauImg{
+        width: 300px;
+        height: 400px;
+    }
+
+}
+
+
+
+
+@media (max-width:480px){
+    
+    .main{
+        width: 100vw;
+        height: 100vh;   
+    }
+    .infoContainer{
+        height: 75vh;
+        width: 80vw;
+        margin: 30px auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hamburger{
+        position: absolute;
+        cursor: pointer;
+        top: 10px;
+        left: 10px;
+        /* display: none; */
+    }
+    .sidebargo{
+        transform: translate(-234px , 0px);
+        position: absolute;
+    }
+    .sidebar{
+        background-color: rgb(248, 191, 174);
+        width: 234px;
+        
+    }
+    .sidebar nav{
+        padding: 22px;
+    }
+    .sidebar nav li{
+        list-style: none;
+        font-size: 13px;
+        padding: 12px  ;
+    }
+    
+
+    .cross{
+        margin-left: 25vw;
+    }
+    
+    .gauImg{
+        width: 180px;
+        height: 230px;
+    }
+    .hello{
+        font-size: 35px;
+    }
+    .name{
+        font-size: 23px;
+    }
+    .about{
+        font-size: 17px;
+    }
+    .moreAbout{
+        font-size: 12px;
+    }
+    .devPic{
+        width: 30px;
+    }
+    .btn  {
+        padding: 5px 9px;
+        border-radius: 12px;
+        font-size: 13px;
+        margin: 5px;    
+    }
+    
+    .devInfo h1 , h2{
+        size: 30px;
+    }
+    
+    .devInfo p {
+        margin: 20px ;
+        font-family: 'Nunito', sans-serif;
+    }
+    
+    .skill{
+        height: 4px;
+        width: 1000px;
+        background-color: rgb(19, 18, 18);
+    }
+    .skillContainer{
+        margin: 15px;
+    }
+    .s1{
+        height: 2px;
+        width: 280px;
+        background-color: rgb(221, 29, 15);
+    }
+    .s2{
+        height: 3px;
+        width: 300px;
+        background-color: rgb(11, 13, 139);
+    }
+    .s3{
+        height: 3px;
+        width: 230px;
+        background-color: rgb(95, 64, 7);
+    }
+    .s4{
+        height: 3px;
+        width: 330px;
+        background-color: rgb(107, 16, 95);
+    }
+    .s5{
+        height: 3px;
+        width: 300px;
+        background-color: rgb(20, 92, 70);
+    }
+    .s6{
+        height: 3px;
+        width: 170px;
+        background-color: rgb(143, 10, 83);
+    }
+    .contactform{
+        border: 2px solid grey;
+        margin: 15px;
+        padding: 15px;
+        padding-top: 10px;
+    }
+    .contactform form div input{
+        width: 56vw;
+    }
+}
+
+@media (min-width:480px){
+    .ham{
+        display: none;
+    }
+}
