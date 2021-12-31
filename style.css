@@ -312,6 +312,7 @@ body{
     .sidebar{
         background-color: rgb(248, 191, 174);
         width: 234px;
+        position:absolute;
         
     }
     .sidebar nav{
